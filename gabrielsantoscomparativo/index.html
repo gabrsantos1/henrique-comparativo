@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datas Comparativas</title>
+</head>
+<body>
+    <div>
+        <h1>Comparar Datas</h1>
+
+        <label for="dataUm">Primeira Data:</label>
+        <input type="date" id="data1cmt">
+        
+        <h1>___________________________________________</h1>
+
+        <label for="dataDois">Segunda Data:</label>
+        <input type="date" id="data2cmt">
+        
+        <h1>___________________________________________</h1>
+
+        <button onclick="comparadatas()">Comparar Datas</button>
+        <button onclick="calculaintervalo()">Ver intervalos entre as datas</button>
+        <button onclick="dataatual()">Data atual</button>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <script src="JS/index.js"></script>
+</body>
+</html>
